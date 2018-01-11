@@ -45,5 +45,5 @@ class Crawler():
         self.cleanup()
 
 
-obj = Crawler('CHROME', 'http://www.google.com', 'Google')
+obj = Crawler('FIREFOX', 'http://www.google.com', 'Google')
 obj.action()
